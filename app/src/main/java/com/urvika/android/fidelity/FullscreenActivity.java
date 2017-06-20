@@ -203,6 +203,12 @@ public class FullscreenActivity extends AppCompatActivity {
 					Toast.LENGTH_LONG).show();
 			t1.speak("Thank you for the interview. Hoping to be an intern at Fidelity", TextToSpeech.QUEUE_ADD, null);
 		}
+		else if (matches.contains("App Developer"))
+		{
+			Toast.makeText(getApplicationContext(), "Developer",
+					Toast.LENGTH_LONG).show();
+			t1.speak("Made by Urvika Gola", TextToSpeech.QUEUE_ADD, null);
+		}
 			else
 			{
 				Toast.makeText(getApplicationContext(), "Match not found",
