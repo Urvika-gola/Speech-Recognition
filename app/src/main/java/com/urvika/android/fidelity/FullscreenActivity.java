@@ -189,6 +189,7 @@ public class FullscreenActivity extends AppCompatActivity {
 			{
 				Toast.makeText(getApplicationContext(), "Year",
 						Toast.LENGTH_LONG).show();
+				// We can also add numberic year here
 				t1.speak("Nineteen Sixty Nine", TextToSpeech.QUEUE_ADD, null);
 			}
 		else if (matches.contains("Fidelity details"))
